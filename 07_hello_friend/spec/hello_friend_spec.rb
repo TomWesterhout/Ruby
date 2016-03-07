@@ -87,8 +87,8 @@
 #     def greeting(who = nil)
 #
 #
-
-require "friend"
+require "spec_helper"
+require "./hello_friend"
 
 describe Friend do
   it "says hello" do
